@@ -1,0 +1,40 @@
+{
+  "name": "@liamegan1/algorithms",
+  "version": "0.0.1",
+  "description": "Helpful wrappers around creative algorithms - mine and others, licences included as applicable",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "exports": {
+    ".": "./dist/index.modern.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist; npx microbundle",
+    "dev": "microbundle watch",
+    "prepare": "husky install; npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamegan/JSAlgorithms.git"
+  },
+  "author": "Liam Egan <liam@wethecollective.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liamegan/JSAlgorithms/issues"
+  },
+  "homepage": "https://github.com/liamegan/JSAlgorithms#readme",
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "microbundle": "^0.13.3",
+    "prettier": "^2.4.0"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 80
+  }
+}
