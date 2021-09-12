@@ -1,5 +1,5 @@
 {
-  "name": "@liamegan1/algorithms",
+  "name": "@liamegan1/le-algorithms",
   "version": "0.0.1",
   "description": "Helpful wrappers around creative algorithms - mine and others, licences included as applicable",
   "source": "src/index.js",
