@@ -1,7 +1,7 @@
 {
-  "name": "@liamegan1/le-algorithms",
+  "name": "@liamegan1/creative-algorithms",
   "version": "0.0.1",
-  "description": "Helpful wrappers around creative algorithms - mine and others, licences included as applicable",
+  "description": "Helpful JS wrappers around creative algorithms - mine and others, licences included as applicable",
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
